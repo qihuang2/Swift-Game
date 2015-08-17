@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB3FBC571B828CF900E706C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3FBC561B828CF900E706C4 /* Main.storyboard */; };
+		DB44D8D71A914A1800686483 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44D8D61A914A1800686483 /* AppDelegate.swift */; };
+		DB44D8DB1A914A1800686483 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44D8DA1A914A1800686483 /* GameScene.swift */; };
+		DB44D8DD1A914A1800686483 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44D8DC1A914A1800686483 /* GameViewController.swift */; };
+		DB44D8E21A914A1800686483 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB44D8E11A914A1800686483 /* Images.xcassets */; };
+		DB44D8E51A914A1800686483 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB44D8E31A914A1800686483 /* LaunchScreen.xib */; };
+		DB44D8F11A914A1800686483 /* Block_PartyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44D8F01A914A1800686483 /* Block_PartyTests.swift */; };
+		DB44D8FC1A914BEB00686483 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44D8FA1A914BEB00686483 /* Hero.swift */; };
+		DB44D8FD1A914BEB00686483 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44D8FB1A914BEB00686483 /* Enemy.swift */; };
+		DB44D9011A914CC300686483 /* characters.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DB44D9001A914CC200686483 /* characters.atlas */; };
+		DB44D9031A914CFF00686483 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44D9021A914CFF00686483 /* Types.swift */; };
+		DBF8093C1A92F98300520A93 /* Charm.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF8093B1A92F98300520A93 /* Charm.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB44D8EB1A914A1800686483 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB44D8C91A914A1800686483 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB44D8D01A914A1800686483;
+			remoteInfo = "Block Party";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB3FBC561B828CF900E706C4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		DB44D8D11A914A1800686483 /* Block Party.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Block Party.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB44D8D51A914A1800686483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB44D8D61A914A1800686483 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DB44D8DA1A914A1800686483 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		DB44D8DC1A914A1800686483 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DB44D8E11A914A1800686483 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DB44D8E41A914A1800686483 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DB44D8EA1A914A1800686483 /* Block PartyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Block PartyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB44D8EF1A914A1800686483 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB44D8F01A914A1800686483 /* Block_PartyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block_PartyTests.swift; sourceTree = "<group>"; };
+		DB44D8FA1A914BEB00686483 /* Hero.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Hero.swift; path = "Block Party/Hero.swift"; sourceTree = "<group>"; };
+		DB44D8FB1A914BEB00686483 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Enemy.swift; path = "Block Party/Enemy.swift"; sourceTree = "<group>"; };
+		DB44D9001A914CC200686483 /* characters.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = characters.atlas; sourceTree = "<group>"; };
+		DB44D9021A914CFF00686483 /* Types.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		DBF8093B1A92F98300520A93 /* Charm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Charm.swift; path = "Block Party/Charm.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB44D8CE1A914A1800686483 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB44D8E71A914A1800686483 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB44D8C81A914A1800686483 = {
+			isa = PBXGroup;
+			children = (
+				DB44D8FF1A914CC200686483 /* Images */,
+				DB44D8FE1A914BF900686483 /* Entities */,
+				DB44D8D31A914A1800686483 /* Block Party */,
+				DB44D8ED1A914A1800686483 /* Block PartyTests */,
+				DB44D8D21A914A1800686483 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB44D8D21A914A1800686483 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB44D8D11A914A1800686483 /* Block Party.app */,
+				DB44D8EA1A914A1800686483 /* Block PartyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB44D8D31A914A1800686483 /* Block Party */ = {
+			isa = PBXGroup;
+			children = (
+				DB44D8D61A914A1800686483 /* AppDelegate.swift */,
+				DB44D8DA1A914A1800686483 /* GameScene.swift */,
+				DB44D9021A914CFF00686483 /* Types.swift */,
+				DB44D8DC1A914A1800686483 /* GameViewController.swift */,
+				DB3FBC561B828CF900E706C4 /* Main.storyboard */,
+				DB44D8E11A914A1800686483 /* Images.xcassets */,
+				DB44D8E31A914A1800686483 /* LaunchScreen.xib */,
+				DB44D8D41A914A1800686483 /* Supporting Files */,
+			);
+			path = "Block Party";
+			sourceTree = "<group>";
+		};
+		DB44D8D41A914A1800686483 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB44D8D51A914A1800686483 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB44D8ED1A914A1800686483 /* Block PartyTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB44D8F01A914A1800686483 /* Block_PartyTests.swift */,
+				DB44D8EE1A914A1800686483 /* Supporting Files */,
+			);
+			path = "Block PartyTests";
+			sourceTree = "<group>";
+		};
+		DB44D8EE1A914A1800686483 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB44D8EF1A914A1800686483 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB44D8FE1A914BF900686483 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				DB44D8FA1A914BEB00686483 /* Hero.swift */,
+				DB44D8FB1A914BEB00686483 /* Enemy.swift */,
+				DBF8093B1A92F98300520A93 /* Charm.swift */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		DB44D8FF1A914CC200686483 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DB44D9001A914CC200686483 /* characters.atlas */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB44D8D01A914A1800686483 /* Block Party */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB44D8F41A914A1800686483 /* Build configuration list for PBXNativeTarget "Block Party" */;
+			buildPhases = (
+				DB44D8CD1A914A1800686483 /* Sources */,
+				DB44D8CE1A914A1800686483 /* Frameworks */,
+				DB44D8CF1A914A1800686483 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Block Party";
+			productName = "Block Party";
+			productReference = DB44D8D11A914A1800686483 /* Block Party.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB44D8E91A914A1800686483 /* Block PartyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB44D8F71A914A1800686483 /* Build configuration list for PBXNativeTarget "Block PartyTests" */;
+			buildPhases = (
+				DB44D8E61A914A1800686483 /* Sources */,
+				DB44D8E71A914A1800686483 /* Frameworks */,
+				DB44D8E81A914A1800686483 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB44D8EC1A914A1800686483 /* PBXTargetDependency */,
+			);
+			name = "Block PartyTests";
+			productName = "Block PartyTests";
+			productReference = DB44D8EA1A914A1800686483 /* Block PartyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB44D8C91A914A1800686483 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Qi Feng Huang";
+				TargetAttributes = {
+					DB44D8D01A914A1800686483 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					DB44D8E91A914A1800686483 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = DB44D8D01A914A1800686483;
+					};
+				};
+			};
+			buildConfigurationList = DB44D8CC1A914A1800686483 /* Build configuration list for PBXProject "Block Party" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB44D8C81A914A1800686483;
+			productRefGroup = DB44D8D21A914A1800686483 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB44D8D01A914A1800686483 /* Block Party */,
+				DB44D8E91A914A1800686483 /* Block PartyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB44D8CF1A914A1800686483 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB44D8E51A914A1800686483 /* LaunchScreen.xib in Resources */,
+				DB44D8E21A914A1800686483 /* Images.xcassets in Resources */,
+				DB44D9011A914CC300686483 /* characters.atlas in Resources */,
+				DB3FBC571B828CF900E706C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB44D8E81A914A1800686483 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB44D8CD1A914A1800686483 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB44D8DB1A914A1800686483 /* GameScene.swift in Sources */,
+				DBF8093C1A92F98300520A93 /* Charm.swift in Sources */,
+				DB44D8FD1A914BEB00686483 /* Enemy.swift in Sources */,
+				DB44D8DD1A914A1800686483 /* GameViewController.swift in Sources */,
+				DB44D9031A914CFF00686483 /* Types.swift in Sources */,
+				DB44D8D71A914A1800686483 /* AppDelegate.swift in Sources */,
+				DB44D8FC1A914BEB00686483 /* Hero.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB44D8E61A914A1800686483 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB44D8F11A914A1800686483 /* Block_PartyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB44D8EC1A914A1800686483 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB44D8D01A914A1800686483 /* Block Party */;
+			targetProxy = DB44D8EB1A914A1800686483 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB44D8E31A914A1800686483 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB44D8E41A914A1800686483 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB44D8F21A914A1800686483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB44D8F31A914A1800686483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB44D8F51A914A1800686483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Block Party/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB44D8F61A914A1800686483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Block Party/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB44D8F81A914A1800686483 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Block PartyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Block Party.app/Block Party";
+			};
+			name = Debug;
+		};
+		DB44D8F91A914A1800686483 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Block PartyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Block Party.app/Block Party";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB44D8CC1A914A1800686483 /* Build configuration list for PBXProject "Block Party" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB44D8F21A914A1800686483 /* Debug */,
+				DB44D8F31A914A1800686483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB44D8F41A914A1800686483 /* Build configuration list for PBXNativeTarget "Block Party" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB44D8F51A914A1800686483 /* Debug */,
+				DB44D8F61A914A1800686483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB44D8F71A914A1800686483 /* Build configuration list for PBXNativeTarget "Block PartyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB44D8F81A914A1800686483 /* Debug */,
+				DB44D8F91A914A1800686483 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB44D8C91A914A1800686483 /* Project object */;
+}

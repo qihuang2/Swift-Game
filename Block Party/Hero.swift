@@ -11,10 +11,9 @@ import SpriteKit
 
 
 class Hero : SKSpriteNode{
-    
-    //rec is the playable scene
+
     init(spriteTexture: SKTexture){
-        
+        //create sprite 
         super.init(texture: spriteTexture, color: UIColor.clearColor(), size: spriteTexture.size())
         name = "hero"
         zPosition = 75

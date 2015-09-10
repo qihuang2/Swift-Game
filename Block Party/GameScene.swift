@@ -76,7 +76,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate{
         characterLayer.addChild(hero)
     }
     
-    //how to play directions
+    //how to play instructions
     private func setUpGameDirections(){
         let directionsLabel:SKLabelNode = SKLabelNode(fontNamed: "markerfelt-wide")
         directionsLabel.fontColor = UIColor.whiteColor()

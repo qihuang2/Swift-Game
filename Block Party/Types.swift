@@ -7,7 +7,6 @@
 //
 
 import SpriteKit
-import AVFoundation
 
 struct PhysicsCategory {
     static let None         :UInt32 = 0

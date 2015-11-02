@@ -6,7 +6,7 @@ There are two versions for this game. One version is written using Swift2 and Sp
 
 # Screenshots
 
-![ScreenShot 1](screenshots/1.png)
-![ScreenShot 2](screenshots/2.png)
-![ScreenShot 3](screenshots/3.png)
+![Screenshot 1](Screenshots/1.png)
+![Screenshot 2](Screenshots/2.png)
+![Screenshot 3](Screenshots/3.png)
 

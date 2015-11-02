@@ -1,8 +1,8 @@
 //
 //  main.m
-//  Block Party-Objective_C
+//  Block Party-ObjectiveC
 //
-//  Created by Qi Feng Huang on 10/31/15.
+//  Created by Qi Feng Huang on 11/1/15.
 //  Copyright © 2015 hackathon. All rights reserved.
 //
 

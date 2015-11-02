@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Block Party-Objective_C.xcscheme</key>
+		<key>Block Party-ObjectiveC.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>DBB5470A1BE4A0D7000C66D4</key>
+		<key>DBC1DAD71BE6F8EF00D3B9D0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DBB547281BE4A0D8000C66D4</key>
+		<key>DBC1DAF51BE6F8EF00D3B9D0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DBB547331BE4A0D8000C66D4</key>
+		<key>DBC1DB001BE6F8EF00D3B9D0</key>
 		<dict>
 			<key>primary</key>
 			<true/>

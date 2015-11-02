@@ -1,18 +1,18 @@
 //
-//  Block_Party_Objective_CTests.m
-//  Block Party-Objective_CTests
+//  Block_Party_ObjectiveCTests.m
+//  Block Party-ObjectiveCTests
 //
-//  Created by Qi Feng Huang on 10/31/15.
+//  Created by Qi Feng Huang on 11/1/15.
 //  Copyright © 2015 hackathon. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface Block_Party_Objective_CTests : XCTestCase
+@interface Block_Party_ObjectiveCTests : XCTestCase
 
 @end
 
-@implementation Block_Party_Objective_CTests
+@implementation Block_Party_ObjectiveCTests
 
 - (void)setUp {
     [super setUp];

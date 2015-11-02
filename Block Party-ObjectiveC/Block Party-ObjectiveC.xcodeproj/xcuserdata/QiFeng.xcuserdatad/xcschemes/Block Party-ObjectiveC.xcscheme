@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DBB5470A1BE4A0D7000C66D4"
-               BuildableName = "Block Party-Objective_C.app"
-               BlueprintName = "Block Party-Objective_C"
-               ReferencedContainer = "container:Block Party-Objective_C.xcodeproj">
+               BlueprintIdentifier = "DBC1DAD71BE6F8EF00D3B9D0"
+               BuildableName = "Block Party-ObjectiveC.app"
+               BlueprintName = "Block Party-ObjectiveC"
+               ReferencedContainer = "container:Block Party-ObjectiveC.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,30 +32,30 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DBB547281BE4A0D8000C66D4"
-               BuildableName = "Block Party-Objective_CTests.xctest"
-               BlueprintName = "Block Party-Objective_CTests"
-               ReferencedContainer = "container:Block Party-Objective_C.xcodeproj">
+               BlueprintIdentifier = "DBC1DAF51BE6F8EF00D3B9D0"
+               BuildableName = "Block Party-ObjectiveCTests.xctest"
+               BlueprintName = "Block Party-ObjectiveCTests"
+               ReferencedContainer = "container:Block Party-ObjectiveC.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DBB547331BE4A0D8000C66D4"
-               BuildableName = "Block Party-Objective_CUITests.xctest"
-               BlueprintName = "Block Party-Objective_CUITests"
-               ReferencedContainer = "container:Block Party-Objective_C.xcodeproj">
+               BlueprintIdentifier = "DBC1DB001BE6F8EF00D3B9D0"
+               BuildableName = "Block Party-ObjectiveCUITests.xctest"
+               BlueprintName = "Block Party-ObjectiveCUITests"
+               ReferencedContainer = "container:Block Party-ObjectiveC.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DBB5470A1BE4A0D7000C66D4"
-            BuildableName = "Block Party-Objective_C.app"
-            BlueprintName = "Block Party-Objective_C"
-            ReferencedContainer = "container:Block Party-Objective_C.xcodeproj">
+            BlueprintIdentifier = "DBC1DAD71BE6F8EF00D3B9D0"
+            BuildableName = "Block Party-ObjectiveC.app"
+            BlueprintName = "Block Party-ObjectiveC"
+            ReferencedContainer = "container:Block Party-ObjectiveC.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +75,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DBB5470A1BE4A0D7000C66D4"
-            BuildableName = "Block Party-Objective_C.app"
-            BlueprintName = "Block Party-Objective_C"
-            ReferencedContainer = "container:Block Party-Objective_C.xcodeproj">
+            BlueprintIdentifier = "DBC1DAD71BE6F8EF00D3B9D0"
+            BuildableName = "Block Party-ObjectiveC.app"
+            BlueprintName = "Block Party-ObjectiveC"
+            ReferencedContainer = "container:Block Party-ObjectiveC.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +94,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DBB5470A1BE4A0D7000C66D4"
-            BuildableName = "Block Party-Objective_C.app"
-            BlueprintName = "Block Party-Objective_C"
-            ReferencedContainer = "container:Block Party-Objective_C.xcodeproj">
+            BlueprintIdentifier = "DBC1DAD71BE6F8EF00D3B9D0"
+            BuildableName = "Block Party-ObjectiveC.app"
+            BlueprintName = "Block Party-ObjectiveC"
+            ReferencedContainer = "container:Block Party-ObjectiveC.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
